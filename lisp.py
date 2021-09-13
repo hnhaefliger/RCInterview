@@ -2,8 +2,7 @@ def tokenize(expression):
     '''
     Break expression down into individual terms.
     '''
-    expression = expression.replace('(', ' ( ').replace(')', ' ) ').split()
-    return expression
+    return expression.replace('(', ' ( ').replace(')', ' ) ').split()
 
 def read(tokens):
     '''
